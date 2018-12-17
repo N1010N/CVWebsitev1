@@ -1,0 +1,28 @@
+.about-me {
+  height: 370px;
+  min-width: 1000px;
+}
+#profile-img
+{
+ /*position:relative;*/
+  width :400px;
+  height:auto;
+  margin-top : -20px;
+}
+#name {
+  /*position: relative;*/
+  font-family: 'Tw Cen MT';
+  font-size: 48px;
+  font-weight: 300;
+  color: black;
+  align-content: center;
+}
+
+#job {
+  /*position: relative;*/
+  align-content: center;
+  font-family: 'Tw Cen MT';
+  font-size: 30px;
+  font-weight: 100;
+  color: lightslategrey;
+}

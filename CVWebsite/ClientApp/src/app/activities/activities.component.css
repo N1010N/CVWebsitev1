@@ -1,0 +1,59 @@
+.activities {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-width: 1000px;
+}
+
+.section {
+  position: relative;
+  height: auto;
+  font-family: 'Tw Cen MT';
+  color: black;
+  padding-left: 20px;
+  padding-right: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-width: 1000px;
+}
+
+.activities hr {
+  border: none;
+  height: 2px;
+  margin-right: 70px;
+  margin-left: 40px;
+  background-color: black;
+}
+
+.section hr {
+  border: none;
+  height: 1px;
+  color: #e9ecf1;
+  background-color: #e9ecf1;
+}
+
+.section ul {
+  font-size: 20px;
+}
+
+.label {
+  position: relative;
+  float: right;
+  background-color: #31333f;
+  color: white;
+  font-size: 25px;
+  width: 60px;
+  height: auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+}
+
+.z-depth-2 {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}

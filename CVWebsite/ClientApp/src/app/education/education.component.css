@@ -1,0 +1,60 @@
+.education {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #e9ecf1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-width: 1000px;
+}
+.section {
+  position: relative;
+  height: auto;
+  font-family: 'Tw Cen MT';
+  color: black;
+  padding-left: 80px;
+  padding-right: 10px;
+  min-width: 1000px;
+}
+.section h1
+{
+  font-size : 20px;
+  font-weight:bold;
+  display:inline;
+}
+.section h2
+{
+  font-size : 18px;
+}
+.section hr
+{
+   border: none;
+   height: 1px;
+   color:white;
+   background-color: white;
+}
+
+#date
+{
+  position:relative;
+  float:right;
+}
+
+.label {
+  position: relative;
+  float: left;
+  background-color: #31333f;
+  color: white;
+  font-size: 25px;
+  width: 60px;
+  height: auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+}
+
+.z-depth-2 {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
