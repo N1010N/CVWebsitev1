@@ -1,9 +1,9 @@
-.activities {
+.technical {
   width: 100%;
   height: auto;
   position: relative;
   background-color: rgba(255, 255, 255, 0.12);
-  padding-top: 20px;
+  padding-top: 22px;
   padding-bottom: 20px;
   min-width: 1000px;
 }
@@ -20,7 +20,7 @@
   min-width: 1000px;
 }
 
-.activities hr {
+.technical hr {
   border: none;
   height: 2px;
   margin-right: 70px;
@@ -47,7 +47,6 @@
   font-size: 25px;
   width: 60px;
   height: auto;
-  margin-top :40px;
   padding: 20px;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -56,5 +55,19 @@
 }
 
 .z-depth-2 {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+
+.innerlabel {
+  position: relative;
+  color: white;
+  background-color: #31333f;
+  font-size: 16px;
+  float: left;
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: -22px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 }

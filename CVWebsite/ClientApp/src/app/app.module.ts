@@ -11,6 +11,7 @@ import { AboutMeComponent} from './about-me/about-me.component';
 import { EducationComponent } from './education/education.component';
 import { PublicationsComponent} from './publications/publications.component';
 import { ExperienceComponent} from './experience/experience.component';
+import { TechnicalSkillComponent} from './technical-skill/technical-skill.component';
 import { HonorsComponent} from './honors/honors.component';
 import { ActivitiesComponent} from './activities/activities.component';
 import { CommonService} from './common.service';
@@ -24,7 +25,8 @@ import { CommonService} from './common.service';
     PublicationsComponent,
     ExperienceComponent,
     HonorsComponent,
-    ActivitiesComponent
+    ActivitiesComponent,
+    TechnicalSkillComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -36,7 +38,8 @@ import { CommonService} from './common.service';
                      {path:'publications',  component: PublicationsComponent},
                      {path:'experience',  component: ExperienceComponent},
                         {path:'honors',  component: HonorsComponent},
-                        {path:'activities',  component: ActivitiesComponent}
+                        {path:'activities',  component: ActivitiesComponent},
+                        {path:'technical',  component: TechnicalSkillComponent}
                       
     ])  
   ],

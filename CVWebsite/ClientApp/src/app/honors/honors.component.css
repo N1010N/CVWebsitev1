@@ -2,10 +2,11 @@
   width: 100%;
   height: auto;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #e9ecf1;
   padding-top: 20px;
   padding-bottom: 20px;
   min-width: 1000px;
+
 }
 
 .section {
@@ -13,45 +14,49 @@
   height: auto;
   font-family: 'Tw Cen MT';
   color: black;
-  padding-left: 20px;
-  padding-right: 80px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 10px;
   min-width: 1000px;
 }
 
-.honors hr {
-  border: none;
-  height: 2px;
-  margin-right: 70px;
-  margin-left: 40px;
-  background-color: black;
-}
+  .section h1 {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+  }
 
-.section hr {
-  border: none;
-  height: 1px;
-  color: #e9ecf1;
-  background-color: #e9ecf1;
-}
+  .section h2 {
+    font-size: 18px;
+  }
 
-.section ul {
-  font-size: 20px;
+  .honors hr {
+    border: none;
+    height: 1px;
+    color: white;
+    background-color: white;
+  }
+  .section ul {
+    font-size: 20px;
+  }
+
+#date {
+  position: relative;
+  float: right;
 }
 
 .label {
   position: relative;
-  float: right;
+  float: left;
   background-color: #31333f;
   color: white;
   font-size: 25px;
   width: 60px;
   height: auto;
   padding: 20px;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  margin-top: -80px;
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
+
 }
 
 .z-depth-2 {

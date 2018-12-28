@@ -40,6 +40,6 @@ export class ExperienceComponent {
 
      public scroll() {
       //window.scrollTo(300,600);
-      this.myDiv.nativeElement.scrollIntoView({ behavior: 'smooth' });
+      this.myDiv.nativeElement.scrollIntoView({ behavior: 'smooth',block:'start' });
      } 
 }

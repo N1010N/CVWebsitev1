@@ -17,7 +17,10 @@
   color: black;
   align-content: center;
 }
-
+.about-me h3
+{
+  font-size: 16px;
+}
 #job {
   /*position: relative;*/
   align-content: center;
@@ -25,4 +28,9 @@
   font-size: 30px;
   font-weight: 100;
   color: lightslategrey;
+}
+#icon
+{
+  width: 30px;
+  height:30px;
 }
